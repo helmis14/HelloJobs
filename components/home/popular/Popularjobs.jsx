@@ -36,7 +36,7 @@ const Popularjobs = () => {
           <Text>Something Error</Text>
         ) : (
           <FlatList
-            data={data} // Assuming your data is an array
+            data={data}
             renderItem={({ item }) => <PopularJobCard item={item} />}
             keyExtractor={(item) => item?.job_id.toString()}
             contentContainerStyle={{ columnGap: SIZES.medium }}
