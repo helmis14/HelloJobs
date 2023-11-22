@@ -8,6 +8,23 @@
       "expo-router"
     ],
     "name": "HelloJobs",
-    "slug": "HelloJobs"
+    "slug": "HelloJobs",
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/5f55711c-917b-4e03-8016-8a94d6ef5e15"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5f55711c-917b-4e03-8016-8a94d6ef5e15"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "android": {},
+    "ios": {}
   }
 }
